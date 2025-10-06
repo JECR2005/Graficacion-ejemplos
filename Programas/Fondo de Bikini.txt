@@ -1,0 +1,42 @@
+function setup() {
+  // Creates a canvas 600 pixels wide
+  // and 400 pixels high.
+  createCanvas(600, 400);
+}
+function draw() {
+  //sky blue background
+  background(135, 206, 235);
+  //sun in top right
+  fill("yellow"); //yellow  
+
+  stroke("orange"); //orange outline 
+
+  strokeWeight(20); //large outline    
+
+  circle(550, 50, 100);
+}function setup() {
+  //creates a canvas 600 pixels wide
+  //and 400 pixels high
+  createCanvas(600, 400);
+}
+function draw() {
+  //sky blue background
+  background(135, 206, 235);
+  //sun in top-right corner
+  
+ 
+  //grass on bottom half
+  fill("#CFD977");
+  rect(0, 200, 600, 200);
+ 
+  //emojis
+  textSize(75)
+  text("🌸", 250, 100) //flower
+  text("🏵️", 500, 100) //flower
+  text("🪷", 0, 100) //flower
+  text("🪼", mouseX, mouseY) //medusa
+  text("⚓",40,350) //decoracion
+  text("🏸",280,200) //Red
+  text ("🧽",220,220) //Bob esponja
+  text("🦑",500,350) //calamardo
+}
