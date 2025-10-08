@@ -6,7 +6,7 @@ num2 = float(input("Ingresa el segundo número: "))
 
 # Calcular la suma
 suma = num1 + num2
-
+print("suma de dos numeros")
 # Mostrar el resultado
 print("La suma es:", suma)
 print("Modificacion")
